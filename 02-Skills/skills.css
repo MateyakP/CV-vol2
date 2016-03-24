@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Znikomit;
+    src: url('../font/Znikomit.otf');
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+body {
+  background-color: red;
+  background-image: url(../img/background.png);
+}
+.container-fluid {
+  height: 100%;
+}
+.menu {
+  background-color: #20768c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: 1em solid #fea00d;
+}
+.menu:hover {
+  background-color: #9ce6fb;
+  color: black;
+  font-size: 8px;
+}
+.links {
+  color: white;
+  font-size: 3.1vw;
+  font-family: Znikomot;
+}
+.line {
+  margin-top: 5em;
+  height: 2em;
+  background-color: #fea00d;
+}
+p {
+  font-size: 3em;
+}
+.image {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+img {
+  border-radius: 50%;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: Znikomit;
+  color: black;
+  background-color:  #fea00d;
+  border-radius: 5em;
+  padding: 2px;
+  transition: 0.5s;
+}
+.name:hover {
+  background-color: #FEB33D;
+  text-decoration: underline;
+}
+.skillset {
+  text-align: center;
+  color: black;
+  font-size: 2.7em;
+  font-style: italic;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 5em;
+  opacity: 0.7;
+  background: #fea00d;
+}
+.center {
+  text-align: center;
+}
+.prog {
+  height: auto;
+}
+#myProgress {
+    position: relative;
+    height: 3em;
+    background-color: grey;
+    border: 2px solid black;
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+}
+#html, #css, #ps, #js, #ror, #git {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #20768c;
+}
+#label1, #label2, #label3, #label4, #label5, #label6    {
+    text-align: center;
+    line-height: 30px;
+    color: #fea00d;
+    font-size: 3em;
+    margin-top: 3px;
+}

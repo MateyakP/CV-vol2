@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Znikomit;
+    src: url('../font/Znikomit.otf');
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+body {
+  background-color: red;
+  background-image: url(../img/background.png);
+}
+.container-fluid {
+  height: 100%;
+}
+.menu {
+  background-color: #20768c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: 1em solid #fea00d;
+}
+
+.menu:hover {
+  background-color: #9ce6fb;
+  color: black;
+  font-size: 8px;
+}
+.links {
+  color: white;
+  font-size: 3.1vw;
+  font-family: Znikomot;
+}
+.line {
+  margin-top: 5em;
+  height: 2em;
+  background-color: #fea00d;
+}
+p {
+  font-size: 3em;
+}
+.image {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.image img {
+  border-radius: 50%;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 0.9em;
+  font-family: Znikomit;
+  color: black;
+  background-color:  #fea00d;
+  border-radius: 5em;
+  padding: 2px;
+  transition: 0.5s;
+}
+.name:hover {
+  background-color: #FEB33D;
+  text-decoration: underline;
+}
+.top {
+  text-align: center;
+  color: white;
+  font-family: Znikomit;
+  font-size: 3.5em;
+  margin-top: -1em;
+  margin-bottom: -0.1em;
+  padding: 0.2em;
+  background-color: black;
+}
+.icon {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.facebook, .github, .email {
+  width: 30%;
+  border-top: 1em solid #fea00d;
+  border-bottom: 0.5em solid black;
+  background-color: #20768c;
+  padding: 2em;
+  transition: 0.5s;
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+}
+.email {
+  padding-top: 3.5em;
+}
+
+.facebook:hover, .github:hover, .email:hover {
+  background-color: #9ce6fb;
+  color: black;
+}
+.githubsmall, .facebooksmall, .emailsmall {
+  display: block;
+  border-top: 1em solid #fea00d;
+  border-bottom: 0.5em solid black;
+  background-color: #20768c;
+  padding: 2em;
+  transition: 0.5s;
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+  margin-bottom: 2em;
+  color: black;
+  text-align: center;
+}
+.githubsmall h2, .facebooksmall h2, .emailsmall h2 {
+  font-size: 4vw;
+}
+.githubsmall:hover, .facebooksmall:hover, .emailsmall:hover {
+  background-color: #9ce6fb;
+  color: black;
+
+}
+.icon h2 {
+  font-size: 2vw;
+}
+.mail {
+  color: black;
+  transition: 0.3s;
+}
+.mailsmall {
+  color: black;
+  transition: 0.3s;
+}
+.mailsmall:hover {
+  background-color: #fea00d;
+}
+.mail:hover {
+  background-color: #fea00d;
+  margin-top: 0.7em;
+}
+
+a {
+}

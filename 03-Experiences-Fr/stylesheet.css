@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Znikomit;
+    src: url('../font/Znikomit.otf');
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+body {
+  background-color: red;
+  background-image: url(../img/background.png);
+}
+.container-fluid {
+  height: 100%;
+}
+.menu {
+  background-color: #20768c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: 1em solid #fea00d;
+}
+
+.menu:hover {
+  background-color: #9ce6fb;
+  color: black;
+  font-size: 8px;
+}
+.links {
+  color: white;
+  font-size: 3.1vw;
+  font-family: Znikomot;
+}
+.line {
+  margin-top: 5em;
+  height: 2em;
+  background-color: #fea00d;
+}
+p {
+  font-size: 3em;
+}
+.image {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+img {
+  border-radius: 50%;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 1.6em;
+  font-family: Znikomit;
+  color: black;
+  background-color:  #fea00d;
+  border-radius: 5em;
+  padding: 2px;
+  transition: 0.5s;
+}
+.name:hover {
+  background-color: #FEB33D;
+  text-decoration: underline;
+}
+.top {
+  text-align: center;
+  color: white;
+  font-family: Znikomit;
+  font-size: 3.5em;
+  margin-top: -1em;
+  margin-bottom: -0.1em;
+  padding: 0.2em;
+  background-color: black;
+}
+.me {
+  background-color: #20768c;
+  padding: 1em;
+  font-size: 30px;
+  text-align: center;
+  border-top: 0.5em solid #fea00d;
+  border-bottom: 0.15em solid black;
+  color: white;
+  font-family: Znikomit;
+  transition: 0.5s;
+  margin-bottom: 3em;
+}
+.me:hover {
+  background-color: #9ce6fb;
+  color: black;
+  font-size: 2.9em;
+  padding: 0.2em;
+}
+
+.small {
+  font-size: 2.2em;
+  font-style: italic;
+}
+
+.menu2 h2 {
+  font-size: 5em;
+  background-color: #fea00d;
+  text-align: center;
+  transition: 0.3s;
+}
+.menu2 h2:hover {
+
+  background-color: #FEB33D;
+}
+.menu2 {
+  text-align: center;
+  color: black;
+  background-color: #20768c;
+  border-top: 0.5em solid #fea00d;
+  border-bottom: 0.15em solid black;
+  font-size: 1em;
+  padding-bottom: 0.8em;
+  margin-bottom: 2em;
+}

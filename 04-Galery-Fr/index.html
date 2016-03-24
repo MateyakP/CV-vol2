@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- <link href="" rel="icon"> -->
+  <title>MATEYAK Paul - Galery</title>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      padding: 3em;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+      // Activate Carousel
+      $("#myCarousel").carousel();
+
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+          $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+          $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+          $("#myCarousel").carousel(2);
+      });
+      $(".item4").click(function(){
+          $("#myCarousel").carousel(3);
+      });
+
+      // Enable Carousel Controls
+      $(".left").click(function(){
+          $("#myCarousel").carousel("prev");
+      });
+      $(".right").click(function(){
+          $("#myCarousel").carousel("next");
+      });
+  });
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <a href="../02-Skills-Fr/skills.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">CAPACITÉS</span>
+      </div></a>
+      <a href="../03-Experiences-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">ÉXPÉRIENCE</span>
+      </div></a>
+      <a href="../04-Galery-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">GALERIE</span>
+      </div></a>
+      <a href="../05-Contact-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">CONTACT</span>
+      </div></a>
+    </div>
+    <!-- <div class="row line"></div> -->
+      <!-- <div class="image"><img class="img-circle" src="../img/PaulMateyak.png" width="300px"></img></div> -->
+
+      <div class="row">
+        <a href="../01-Home-Fr/index.html"><h1 class="name col-xs-offset-1 col-xs-10 col-lg-offset-4 col-lg-4">Paul MATEYAK</h1></a>
+      </div>
+  </div>
+
+  <div class="container">
+    <div id="myCarousel" class="carousel slide">
+      <!-- <ol class="carousel-indicators">
+        <li class="item1 active"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+      </ol> -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="../img/AC3M4ST3R.png">
+        </div>
+        <div class="item">
+          <img src="../img/KDOT2.gif">
+        </div>
+        <div class="item">
+          <img src="../img/KDOT.gif">
+        </div>
+        <div class="item">
+          <img src="../img/Larkspur-2.png">
+        </div>
+        <div class="item">
+          <img src="../img/LilMike.gif">
+        </div>
+        <div class="item">
+          <img src="../img/W.png">
+        </div>
+        <div class="item">
+          <img src="../img/Wiz.gif">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button">
+        <img class="controler1 hidden-xs hidden-sm" src="../img/arrow-left.png">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button">
+        <img class="controler2 hidden-xs hidden-sm" src="../img/arrow-right.png">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <!-- <div class="row">
+      <a href="../01-Home/index.html"><h1 class="name name2 col-xs-offset-1 col-xs-10 hidden-lg ">Paul MATEYAK</h1></a>
+    </div> -->
+
+  </div>
+</body>
+</html>

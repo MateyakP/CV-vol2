@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Znikomit;
+    src: url('../font/Znikomit.otf');
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+@@font-face {
+  font-family: glyphicon;
+  src: url('../bootstrap/front/glyphicons-halflings-regular.ttf');
+}
+
+body {
+  background-color: red;
+  background-image: url(../img/background.png);
+}
+.container-fluid {
+  height: 100%;
+}
+.menu {
+  background-color: #20768c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: 1em solid #fea00d;
+}
+.menu:hover {
+  background-color: #9ce6fb;
+  color: black;
+  font-size: 8px;
+}
+.links {
+  color: white;
+  font-size: 3.1vw;
+  font-family: Znikomot;
+}
+.line {
+  margin-top: 5em;
+  height: 2em;
+  background-color: #fea00d;
+}
+p {
+  font-size: 3em;
+}
+.image {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 6vw;
+  margin-bottom: -5vw;
+  font-family: Znikomit;
+  color: black;
+  background-color:  #fea00d;
+  border-radius: 5em;
+  padding: 2px;
+  transition: 0.5s;
+}
+.name2 {
+  margin-top: 1em;
+
+}
+.name:hover {
+  background-color: #FEB33D;
+  text-decoration: underline;
+}
+.top {
+  text-align: center;
+  color: white;
+  font-family: Znikomit;
+  font-size: 3.5em;
+  margin-top: -1em;
+  margin-bottom: -0.1em;
+  padding: 0.2em;
+  background-color: black;
+}
+.carousel {
+  margin-top: 9vw;
+  height: 110%;
+  width: 100%;
+  background-color: black;
+
+}
+.carousel-inner {
+  background-color: black;
+}
+.controler1 {
+  margin-top: 10em;
+  margin-left: -15em;
+}
+.controler2 {
+  margin-top: 10em;
+  padding-left: 8.5em;
+}
+.right {
+
+}
