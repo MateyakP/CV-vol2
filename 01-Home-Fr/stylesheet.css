@@ -1,31 +1,18 @@
-/*@font-face {
+@font-face {
     font-family: Znikomit;
     src: url('../font/Znikomit.otf');
-}*/
+}
 @font-face {
   font-family: Cookie;
   src: url('../font/Cookie-Regular.ttf');
 }
-@font-face {
-  font-family: Ikaros;
-  src: url('../font/Ikaros-Light.otf');
-}
-@font-face {
-  font-family: Ika;
-  src: url('../font/Ikaros-Regular.otf');
-}
-@font-face {
-  font-family: Ikkaros;
-  src: url('../font/Ikaros.ttf');
-}
-@font-face {
-  font-family: Keep;
-  src: url('../font/KeepCalm-Medium.ttf');
-}
-
 body {
+  background-color: red;
   background-image: url(../img/background.png);
   overflow-x: hidden;
+}
+.container-fluid {
+  height: 100%;
 }
 .menu {
   background-color: #20768c;
@@ -33,44 +20,55 @@ body {
   padding-bottom: 2em;
   text-align: center;
   transition: 0.5s;
-  border-bottom: 6px solid #fea00d;
-  font-size: 0.5em;
+  border-bottom: 1em solid #fea00d;
 }
+
 .menu:hover {
   background-color: #9ce6fb;
   color: black;
-  font-size: 0.2em;
+  font-size: 8px;
 }
 .links {
-  font-family: Ikaros, Ika, Ikkaros, Cookie, Keep;
   color: white;
-  font-size: 2.9vw;
+  font-size: 3.1vw;
+  font-family: Znikomit;
+}
+.links2 {
+  font-size: 3.1vw;
+  font-family: Znikomot;
+  color: white;
+}
+.line {
+  margin-top: 5em;
+  height: 2em;
+  background-color: #fea00d;
+}
+p {
+  font-size: 3em;
 }
 .image1 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1em;
 }
 .image1 img {
-  width: 150px;
   border-radius: 50%;
 }
-.language {
-  margin-right: none;
+.image2 {
   text-align: center;
-  margin-top: 1em;
+  margin-right: -2em;
+  margin-top: 1.5em;
   margin-bottom: -6.2em;
 }
-.logo {
-  margin-left: -0.3em;
-  margin-right: 0.5em;
-  padding-right: 0.2em;
+.image2 img {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .name {
-  font-size: 2em;
+  font-size: 5em;
   text-align: center;
-  margin-bottom: 2.2em;
-  font-family: Ikaros;
+  margin-bottom: 1.6em;
+  font-family: Znikomit;
   color: black;
   background-color:  #fea00d;
   border-radius: 5em;
@@ -84,8 +82,8 @@ body {
 .top {
   text-align: center;
   color: white;
-  font-family: Ikaros;
-  font-size: 2em;
+  font-family: Znikomit;
+  font-size: 3.5em;
   margin-top: -1em;
   margin-bottom: -0.1em;
   padding: 0.2em;
@@ -93,19 +91,19 @@ body {
 }
 .me {
   background-color: #20768c;
-  padding: 0.5em;
-  font-size: 1.2em;
+  padding: 1em;
+  font-size: 30px;
   text-align: center;
-  border-top: 6px solid #fea00d;
+  border-top: 0.5em solid #fea00d;
   border-bottom: 0.15em solid black;
   color: white;
+  font-family: Znikomit;
   transition: 0.5s;
-  margin-bottom: 2.5em;
-  font-family: Ikaros;
+  margin-bottom: 3em;
 }
 .me:hover {
   background-color: #9ce6fb;
   color: black;
-  font-size: 1.5em;
+  font-size: 2.9em;
   padding: 0.2em;
 }
