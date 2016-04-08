@@ -1,12 +1,11 @@
-function fill(element, label, Twidth) {
-  var elem = document.getElementById(element);
-  var label = document.getElementById("#" + label);
-  var id = sectInterval(frame, 40, label, Twidth);
-  var Cwidth = 10;
+function fill(subject, label, num) {
+  var elem = document.getElementById(subject);
+  var label = document.getElementById(label);
+  var id = setInterval(frame, 35, label, num);
+  var Cwidth = 6;
 // console.log(element, label, Twidth);
 function frame (label, Twidth) {
   if (Cwidth >= Twidth) {
-
   clearInterval(id);
   }
   else {
@@ -16,9 +15,5 @@ function frame (label, Twidth) {
   }
 }
 }
-
-
 // Cwidth = Current_Width
 // Twidth = Targetted_Width
-// ---
-// fill ('html','label1',90)

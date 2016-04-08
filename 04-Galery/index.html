@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="carousel.js"></script>
+  <script type="text/javascript" src="carousel-bootstrap.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <!-- <link href="" rel="icon"> -->
+  <link href="../img/Logo.png" rel="icon">
   <title>MATEYAK Paul - Galery</title>
   <style>
   .carousel-inner > .item > img,
@@ -23,21 +23,6 @@
   $(document).ready(function(){
       // Activate Carousel
       $("#myCarousel").carousel();
-
-      // Enable Carousel Indicators
-      $(".item1").click(function(){
-          $("#myCarousel").carousel(0);
-      });
-      $(".item2").click(function(){
-          $("#myCarousel").carousel(1);
-      });
-      $(".item3").click(function(){
-          $("#myCarousel").carousel(2);
-      });
-      $(".item4").click(function(){
-          $("#myCarousel").carousel(3);
-      });
-
       // Enable Carousel Controls
       $(".left").click(function(){
           $("#myCarousel").carousel("prev");
@@ -45,7 +30,6 @@
       $(".left").click(function(){
           $("#myCarousell").carousel("prev");
       });
-
       $(".right").click(function(){
           $("#myCarousel").carousel("next");
       });
@@ -71,13 +55,8 @@
         <span class="links">CONTACT</span>
       </div></a>
     </div>
-    <!-- <div class="row line"></div> -->
-      <!-- <div class="image"><img class="img-circle" src="../img/PaulMateyak.png" width="300px"></img></div> -->
-
-      <div class="row">
-        <a href="../01-Home/index.html"><h1 class="name col-xs-offset-2 col-xs-8 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-lg-offset-4 col-lg-4">Paul MATEYAK</h1></a>
-      </div>
   </div>
+  <div class="homecover"><a href="../01-Home/index.html"><div class="home"><img src="../img/home.png" ></div></a></div>
 
   <div class="container hidden-xs">
     <div id="myCarousel" data-interval="0" class="carousel slide">

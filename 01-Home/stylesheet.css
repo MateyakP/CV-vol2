@@ -1,30 +1,17 @@
-/*@font-face {
-    font-family: Znikomit;
-    src: url('../font/Znikomit.otf');
-}*/
 @font-face {
-  font-family: Cookie;
-  src: url('../font/Cookie-Regular.ttf');
-}
-@font-face {
-  font-family: Ikaros;
+  font-family: IkaLight;
   src: url('../font/Ikaros-Light.otf');
 }
 @font-face {
-  font-family: Ika;
+  font-family: Ikaros;
   src: url('../font/Ikaros-Regular.otf');
 }
 @font-face {
-  font-family: Ikkaros;
+  font-family: Ika;
   src: url('../font/Ikaros.ttf');
 }
-@font-face {
-  font-family: Keep;
-  src: url('../font/KeepCalm-Medium.ttf');
-}
-
 body {
-  background-image: url(../img/background.png);
+  background-image: url(../img/backgrounddark.png);
   overflow-x: hidden;
 }
 .menu {
@@ -37,23 +24,46 @@ body {
   font-size: 0.5em;
 }
 .menu:hover {
-  background-color: #9ce6fb;
+  background-color: #2eaacb;
   color: black;
   font-size: 0.2em;
 }
 .links {
-  font-family: Ikaros, Ika, Ikkaros, Cookie, Keep;
+  font-family: Ika;
   color: white;
   font-size: 2.9vw;
 }
 .image1 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
+.image1 img:hover  {
+  opacity: 0.8;
+}
 .image1 img {
+  transition: 0.4s;
   width: 150px;
   border-radius: 50%;
+}
+.homecover {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  padding-left: 0.1em;
+  background-image: url('../img/homehover.png');
+}
+.home {
+    margin-top: -1em;
+    width: 70px;
+    height: 70px;
+    transition: 0.4s;
+}
+.home:hover {
+  opacity: 0;
+}
+.home img {
+  margin-right: -0.1em;
 }
 .language {
   margin-right: none;
@@ -65,32 +75,20 @@ body {
   margin-left: -0.3em;
   margin-right: 0.5em;
   padding-right: 0.2em;
+  transition: 0.4s;
 }
-.name {
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 2.2em;
-  font-family: Ikaros;
-  color: black;
-  background-color:  #fea00d;
-  border-radius: 5em;
-  padding: 2px;
-  transition: 0.5s;
-}
-.name:hover {
-  background-color: #FEB33D;
-  text-decoration: underline;
+.logo:hover {
+  opacity: 0.6;
 }
 .top {
   text-align: center;
   color: white;
-  font-family: Ikaros;
+  font-family: Ika;
   font-size: 2em;
   margin-top: -1em;
   margin-bottom: -0.1em;
   padding: 0.2em;
   background-color: black;
-
 }
 .me {
   background-color: #20768c;
@@ -105,8 +103,9 @@ body {
   font-family: Ikaros;
 }
 .me:hover {
-  background-color: #9ce6fb;
+  font-family: Ikaros;
+  background-color: #2eaacb;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.6em;
   padding: 0.2em;
 }
